@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Hauora';
+    src: url(../font/Hauora-Light.woff) format("woff"),
+         url(../font/Hauora-Light.woff2) format("woff2");
+    font-style: normal;
+    font-weight: 300;
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: 'Hauora';
+    src: url(../font/Hauora-Medium.woff) format("woff"),
+         url(../font/Hauora-Medium.woff2) format("woff2");
+    font-style: normal;
+    font-weight: 500;
+    font-display: fallback;
+  }
