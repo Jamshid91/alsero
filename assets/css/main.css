@@ -1409,7 +1409,7 @@ input, textarea, select, button {
 .main .repeair-page .repeair-form {
   -webkit-border-radius: 30px;
           border-radius: 30px;
-  border: 1px solid var(5, #5E8E94);
+  border: 1px solid #5E8E94;
   background: rgba(94, 142, 148, 0.2);
 }
 
@@ -1447,7 +1447,7 @@ input, textarea, select, button {
 }
 
 .main .repeair-page .repeair-form .form .check-box label {
-  color: 214145;
+  color: #214145;
 }
 
 .main .repeair-page .repeair-form .form__check {
