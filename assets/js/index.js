@@ -7,22 +7,34 @@ function addAdometer() {
 setTimeout(() => {
 odometer1.innerHTML = 20
 }, 500);
-setTimeout(() => {
-odometer2.innerHTML = 769
-}, 500);
-setTimeout(() => {
-odometer3.innerHTML = 47
-}, 500);
 }
+function addAdometerTwo() {
+   setTimeout(() => {
+   odometer2.innerHTML = 769
+   }, 500);
+}
+   function addAdometerThree() {
+      setTimeout(() => {
+      odometer3.innerHTML = 47
+      }, 500);
+      }
 
 // addAdometer()
 window.addEventListener('scroll', () => {
 const positionOdometer = odometer1.getBoundingClientRect().top;
+const positionOdometer2 = odometer2.getBoundingClientRect().top;
+const positionOdometer3 = odometer3.getBoundingClientRect().top;
 
 const screenPosition = window.innerHeight;
 
 if(screenPosition > positionOdometer) {
-addAdometer()
+   addAdometer()
+}
+if(screenPosition > positionOdometer2) {
+   addAdometerTwo()
+   }
+if(screenPosition > positionOdometer3) {
+   addAdometerThree()
 }
 });
 
