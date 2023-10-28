@@ -1,8 +1,8 @@
 
 const formFree = document.querySelector('.popUp-free .form'),
-       userNameFree = document.querySelector('.popUp-free #userName'),
-       userPhoneFree = document.querySelector('.popUp-free #userPhone'),
-       submitBtnFree = document.querySelector('.popUp-free #submitForm'),
+       userNameFree = document.querySelector('.popUp-free #userName4'),
+       userPhoneFree = document.querySelector('.popUp-free #userPhone4'),
+       submitBtnFree = document.querySelector('.popUp-free .form__btn'),
        popUpFree = document.querySelector('.popUp-free'),
        freeBtn = document.querySelectorAll('.free__btn');
 

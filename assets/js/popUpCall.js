@@ -1,8 +1,8 @@
 
 const formCall = document.querySelector('.popUp-call .form'),
-       userNameCall = document.querySelector('.popUp-call #userName'),
-       userPhoneCall = document.querySelector('.popUp-call #userPhone'),
-       submitBtnCall = document.querySelector('.popUp-call #submitForm'),
+       userNameCall = document.querySelector('.popUp-call #userName3'),
+       userPhoneCall = document.querySelector('.popUp-call #userPhone3'),
+       submitBtnCall = document.querySelector('.popUp-call .form__btn'),
        popUpCall = document.querySelector('.popUp-call'),
        callBtn = document.querySelectorAll('.call__btn');
 

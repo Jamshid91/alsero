@@ -10,7 +10,7 @@ const left = document.querySelector(".slide-next"),
        form = document.querySelector('.popUp-calculate .form'),
        userName = document.querySelector('.popUp-calculate #userName'),
        userPhone = document.querySelector('.popUp-calculate #userPhone'),
-       submitBtn = document.querySelector('.popUp-calculate #submitForm');
+       submitBtn = document.querySelector('.popUp-calculate .form__btn');
    
    
    submitBtn.addEventListener('click', (e) => {
@@ -115,7 +115,6 @@ function init() {
 
         updateValue(slider);
         updateValuePosition(slider);
-        updateLabels(slider);
 
         setTicks(slider);
     }
@@ -124,7 +123,6 @@ function init() {
 function onSliderInput(event) {
     updateValue(event.target);
     updateValuePosition(event.target);
-    updateLabels(event.target);
 }
 
 function updateValue(slider) {
@@ -150,26 +148,6 @@ function updateValuePosition(slider) {
     value.style.left = left + "px";
 }
 
-function updateLabels(slider) {
-    const value = document.getElementById(slider.dataset.valueId);
-    const minLabel = document.getElementById(slider.dataset.minLabelId);
-    const maxLabel = document.getElementById(slider.dataset.maxLabelId);
-
-    const valueRect = value.getBoundingClientRect();
-    const minLabelRect = minLabel.getBoundingClientRect();
-    const maxLabelRect = maxLabel.getBoundingClientRect();
-
-    const minLabelDelta = valueRect.left - (minLabelRect.left);
-    const maxLabelDelta = maxLabelRect.left - valueRect.left;
-
-    const deltaThreshold = 32;
-
-    if (minLabelDelta < deltaThreshold) minLabel.classList.add("hidden");
-    else minLabel.classList.remove("hidden");
-
-    if (maxLabelDelta < deltaThreshold) maxLabel.classList.add("hidden");
-    else maxLabel.classList.remove("hidden");
-}
 
 function getSliderPercent(slider) {
     const range = slider.max - slider.min;

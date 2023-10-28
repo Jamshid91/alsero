@@ -1,8 +1,8 @@
 
 const formPrice = document.querySelector('.popUp-price .form'),
-       userNamePrice = document.querySelector('.popUp-price #userName'),
-       userPhonePrice = document.querySelector('.popUp-price #userPhone'),
-       submitBtnPrice = document.querySelector('.popUp-price #submitForm'),
+       userNamePrice = document.querySelector('.popUp-price #userName2'),
+       userPhonePrice = document.querySelector('.popUp-price #userPhone2'),
+       submitBtnPrice = document.querySelector('.popUp-price .form__btn'),
        popUpPrice = document.querySelector('.popUp-price'),
        priceBtn = document.querySelectorAll('.price__btn');
 

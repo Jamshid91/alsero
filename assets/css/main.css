@@ -62,6 +62,12 @@ input, textarea, select, button {
   max-width: 1240px;
 }
 
+picture {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+
 .header {
   position: -webkit-sticky;
   position: sticky;
@@ -140,6 +146,7 @@ input, textarea, select, button {
 .header-call {
   font-size: 14px;
   font-weight: 300;
+  text-align: right;
 }
 
 .header-call:hover {
@@ -152,6 +159,7 @@ input, textarea, select, button {
   font-size: 14px;
   font-weight: 300;
   text-decoration: underline;
+  padding: 0;
 }
 
 .header-call .call__btn:hover {
@@ -559,7 +567,7 @@ input, textarea, select, button {
   line-height: 19px;
   font-weight: 300;
   color: #214145;
-  margin-bottom: 80px;
+  margin: 6px 0 80px;
 }
 
 .main .projects-card {
@@ -942,6 +950,9 @@ input, textarea, select, button {
 .main .price-box {
   margin: 180px 0;
 }
+.main .price-box .title__text {
+  margin-bottom: 0;
+}
 
 .main .price-box picture {
   width: 100%;
@@ -1145,7 +1156,18 @@ input, textarea, select, button {
   line-height: 38px;
   font-weight: 500;
   color: #214145;
+  
+}
+.main .repeair-objects .row:last-child {
   margin-top: 180px;
+}
+.main .repeair-objects .row:last-child picture {
+  width: 100%;
+  display: flex;
+}
+.main .repeair-objects .row:last-child picture img {
+  width: 100%;
+  object-fit: contain;
 }
 
 .main .repeair-objects__text {
@@ -1809,8 +1831,8 @@ input, textarea, select, button {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  min-width: 12px;
-  height: 12px;
+  min-width: 13px;
+  height: 13px;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   border: 1px solid #fff;
@@ -1818,13 +1840,15 @@ input, textarea, select, button {
   position: relative;
   margin-top: 5px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form__check::before {
   content: url(../img/svg/check.svg);
-  position: absolute;
-  top: -8px;
-  left: 0px;
+  margin-top: -3px;
+  margin-left: 0px;
   display: none;
 }
 
@@ -1900,7 +1924,7 @@ input, textarea, select, button {
 
 .footer .form .check-box {
   margin: 0;
-  width: 175px;
+  width: 180px;
 }
 
 .footer .form__check {
@@ -1909,7 +1933,7 @@ input, textarea, select, button {
 }
 
 .footer .form__btn {
-  width: 235px;
+  width: 230px;
   white-space: nowrap;
 }
 
@@ -1928,11 +1952,11 @@ input, textarea, select, button {
   font-size: 14px;
   line-height: 19px;
   font-weight: 300;
-  margin-bottom: 10px;
 }
 
 .footer-contacts__info {
   color: #9D9D9D;
+  margin: 20px 0 6px !important;
 }
 
 .footer-contacts__link {
@@ -1959,6 +1983,7 @@ input, textarea, select, button {
 .footer__list {
   font-weight: 300;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .footer__list:last-child {

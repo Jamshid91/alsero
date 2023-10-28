@@ -1,12 +1,12 @@
 
 const formExcursion = document.querySelector('.popUp-excursion .form'),
-       userNameExcursion = document.querySelector('.popUp-excursion #userName'),
-       userPhoneExcursion = document.querySelector('.popUp-excursion #userPhone'),
-       submitBtnExcursion = document.querySelector('.popUp-excursion #submitForm'),
+       userNameExcursion = document.querySelector('.popUp-excursion #userName5'),
+       userPhoneExcursion = document.querySelector('.popUp-excursion #userPhone5'),
+       submitBtnExcursion = document.querySelector('.popUp-excursion .form__btn'),
        popUpExcursion = document.querySelector('.popUp-excursion'),
-       excursion__btnBtn = document.querySelectorAll('.objects__btn');
+       excursionBtn = document.querySelectorAll('.objects__btn');
 
-excursion__btnBtn.forEach(btn => {
+       excursionBtn.forEach(btn => {
     btn.addEventListener('click', () => {
         popUpExcursion.classList.remove('d-none')
     })

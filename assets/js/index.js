@@ -222,6 +222,14 @@ const userNameDesign = document.querySelector('.design-form #name'),
        let small = input.parentElement.children[2]
        small.innerText = ''
    } 
+
+
+   window.addEventListener('scroll', () => {
+      let clipValue = scrollY / 1.5;
+      let wrapperBg = document.querySelector('.wrapper-info');
+      wrapperBg.style.marginTop = `${100- clipValue + 'px'}`
+      // console.log(wrapperBg)
+    })
    
    // mask phohne
    // input mask
