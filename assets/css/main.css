@@ -44,8 +44,10 @@ picture{display:flex;width:auto;height:auto}
 .headerShow{padding:10px 0;top:0}
 .headerShow .header-item ul{top:45px}
 .main{padding-top:60px}
-.main .head-page{font-size:14px;font-weight:300}
-.main .head-page__name{color:#5e8e94;text-decoration:underline}
+.main .head-page{font-size:14px;font-weight:300;}
+.main .head-page .col-12 {flex-wrap: wrap;}
+.main .head-page .head-page__link {white-space: nowrap;}
+.main .head-page__name{color:#5e8e94;text-decoration:underline; white-space: nowrap;}
 .main .wrapper__title{font-size:70px;line-height:95px;font-weight:500;color:#214145}
 .main .wrapper__title-sub{font-size:24px;line-height:28px;font-weight:300;margin:26px 0 38px}
 .main .wrapper .free__btn{width:203px;height:50px;-webkit-border-radius:14px;border-radius:14px;background:#214145;color:#fff;font-size:18px;line-height:21px;font-weight:500;-webkit-transition:.3s all;-o-transition:.3s all;transition:.3s all;margin-right:30px}
