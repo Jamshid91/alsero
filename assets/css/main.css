@@ -52,7 +52,7 @@ picture{display:flex;width:auto;height:auto}
 .main .wrapper__title-sub{font-size:24px;line-height:28px;font-weight:300;margin:26px 0 38px}
 .main .wrapper .free__btn{width:203px;height:50px;-webkit-border-radius:14px;border-radius:14px;background:#214145;color:#fff;font-size:18px;line-height:21px;font-weight:500;-webkit-transition:.3s all;-o-transition:.3s all;transition:.3s all;margin-right:30px}
 .main .wrapper .free__btn:hover{background:#5e8e94}
-.main .wrapper .price__btn{background:0 0;color:#214145}
+.main .wrapper .price__btn{background:0 0;color:#214145; padding: 0;}
 .main .wrapper .price__btn:hover{color:#5e8e94}
 .main .wrapper-bg{margin-top:40px}
 .main .wrapper-bg img{width:100%;-o-object-fit:contain;object-fit:contain}
@@ -237,6 +237,11 @@ picture{display:flex;width:auto;height:auto}
 .main .express__price{font-size:24px;line-height:28px;font-weight:30;color:#214145;margin:20px 0}
 .main .express__text{font-weight:300}
 .main .express-switch .title__text{margin:40px 0 50px}
+.main .switch-item-head{font-size: 24px;
+line-height: 28px;
+font-weight: 500;
+color: #5E8E94;
+border-top: 1px solid #5E8E94; padding-top: 10px;}
 .main .express-switch .switch{width:33.3%;cursor:pointer}
 .main .express-switch .switch:hover{opacity:.8}
 .main .express-switch .switch input[type=radio]{-webkit-appearance:none;-moz-appearance:none;appearance:none}
@@ -455,12 +460,15 @@ to{-webkit-transform:scale(1);transform:scale(1)}
 .popUp .after-calculate,.popUp .calculate,.popUp .thanks{padding:40px 20px}
 }
 @media (max-width:576px){
+.container {
+    padding: 0 20px !important;
+}
 .header{padding:18px 0}
 .header-logo img{width:105px}
 .main{padding-top:30px}
-.main .title__text-sup{width:100%;font-size:14px;line-height:19px;font-weight:300}
+.main .title__text-sup{width:100%;font-size:14px;line-height:19px;font-weight:300; margin-bottom: 20px;}
 .main .title__text{width:100%;font-size:32px;line-height:38px;margin-bottom:40px}
-.main .wrapper__title{font-size:32px;line-height:38px}
+.main .wrapper__title{font-size:32px;line-height:38px; margin-top: 30px;}
 .main .wrapper__title-sub{font-size:18px;line-height:25px;margin:20px 0}
 .main .wrapper .free__btn{margin-bottom:20px}
 .main .wrapper-bg{margin-top:20px}
@@ -489,7 +497,7 @@ to{-webkit-transform:scale(1);transform:scale(1)}
 .main .projects-card-info-time{font-size:14px;line-height:19px;width:75px}
 .main .projects__all{width:100%}
 .main .create{margin:120px 0}
-.main .create .title__text{margin:20px 0}
+.main .create .title__text{margin: 0 0 20px}
 .main .create .title__text-sub{font-size:14px;line-height:19px}
 .main .create .row:last-child{margin-top:80px}
 .main .create-card{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
@@ -559,9 +567,13 @@ to{-webkit-transform:scale(1);transform:scale(1)}
 .main .express .right-box .switch-table td,.main .express .right-box .switch-table th{padding:20px 0 10px}
 .main .express .right-box .switch-table tr td{font-size:18px;line-height:24px}
 .main .express .right-box .express__order{width:100%;margin-top:30px}
-.main .express .switch-item{margin-top:30px}
-.main .express .switch-item__title{font-size:28px;line-height:32px;color:#214145}
-.main .express .switch-item__title-sub{font-size:20px;line-height:28px;color:#214145;margin:15px 0 30px}
+.main .express .switch-item{margin-top:0}
+.main .express .right-box{margin-top:40px}
+.main .express .switch-box {margin-bottom:80px}
+.main .express .switch-box:last-child {margin-bottom:0}
+.main .express .express-switch .title__text{margin: 40px 0}
+.main .express .switch-item__title{font-size:24px;line-height:28px;color:#214145}
+.main .express .switch-item__title-sub{font-size:18px;line-height:25px;color:#214145;margin:20px 0}
 .main .express .price-info__text{font-size:12px;line-height:14px}
 .main .design-page .title__text{margin-bottom:0}
 .main .design-page__price{font-size:18px;line-height:25px}
