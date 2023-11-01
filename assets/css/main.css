@@ -275,6 +275,7 @@ border-top: 1px solid #5E8E94; padding-top: 10px;}
 .main .design-page__btn:hover{background:#5e8e94}
 .main .design-page .design-img{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-bottom:50px}
 .main .design-page .design-img img{width:100%;-o-object-fit:contain;object-fit:contain}
+.main .privacy-policy {margin-bottom: 180px;}
 .main .privacy-policy .title__text {width: 100%; margin-top: 60px; margin-bottom: 0;}
 .main .privacy-policy .privacy-policy__title {font-size: 32px;
 line-height: 38px;
@@ -601,6 +602,7 @@ line-height: 28px;margin-top: 30px;}
     font-size: 14px;
     line-height: 19px;
 }
+.main .privacy-policy {margin-bottom: 120px;}
 .footer .row:nth-child(2){margin:80px 0 50px}
 .footer .form__title{font-size:32px;line-height:38px}
 .footer .form__title-sub{font-size:16px;line-height:22px;margin:20px 0 40px}
