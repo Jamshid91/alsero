@@ -275,6 +275,15 @@ border-top: 1px solid #5E8E94; padding-top: 10px;}
 .main .design-page__btn:hover{background:#5e8e94}
 .main .design-page .design-img{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-bottom:50px}
 .main .design-page .design-img img{width:100%;-o-object-fit:contain;object-fit:contain}
+.main .privacy-policy .title__text {width: 100%; margin-top: 60px; margin-bottom: 0;}
+.main .privacy-policy .privacy-policy__title {font-size: 32px;
+line-height: 38px;
+font-weight: 500;
+text-transform: uppercase;
+color: #214145; margin-top: 40px;}
+.main .privacy-policy .privacy-policy__text {
+    font-weight: 300; margin-top: 20px;
+}
 .form{color:#fff}
 .form__title{font-size:48px;line-height:57px;font-weight:500}
 .form__title-sub{font-weight:300;margin:10px 0 55px}
@@ -585,6 +594,13 @@ to{-webkit-transform:scale(1);transform:scale(1)}
 .main .design-page-item li{font-size:18px;line-height:25px}
 .main .design-page__btn{width:100%}
 .main .design-page .repeair-page-info{margin-top:0!important}
+.main .privacy-policy .title__text {margin-top: 50px; font-size: 26px; line-height: 32px;}
+.main .privacy-policy .privacy-policy__title {font-size: 24px;
+line-height: 28px;margin-top: 30px;}
+.main .privacy-policy .privacy-policy__text {
+    font-size: 14px;
+    line-height: 19px;
+}
 .footer .row:nth-child(2){margin:80px 0 50px}
 .footer .form__title{font-size:32px;line-height:38px}
 .footer .form__title-sub{font-size:16px;line-height:22px;margin:20px 0 40px}
